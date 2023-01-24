@@ -1,3 +1,29 @@
 body {
   font-size: 16px;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+label.required::after {
+  content: "*";
+  color: red;
+}
+
+.show-cursor-pointer {
+  cursor: pointer
+}
+
+.show-cursor-not-allowed {
+  cursor: not-allowed;
+}
+
