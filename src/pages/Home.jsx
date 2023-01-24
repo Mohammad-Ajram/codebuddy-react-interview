@@ -117,8 +117,8 @@ const Home = () => {
         .then(res => {
           if (res.message === 'Success') navigate('/posts');
         })
-        .catch(e => {
-          console.log(e);
+        .catch(() => {
+          //
         });
     },
   });
